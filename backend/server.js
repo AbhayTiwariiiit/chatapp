@@ -24,4 +24,4 @@ app.use('/user', userRoute);
 app.listen((port), () => {
     connect_to_mongodb();
     console.log(`server is running on port ${5000}`)
-}); 
+});
